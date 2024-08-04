@@ -16,18 +16,17 @@ function Navbar() {
     <header>
       <nav>
         <Box
-          width="5vw"
           sx={{
             height: { xs: "5vw", lg: "100vh" },
-            width: { xs: "100%", lg: "5vw" },
+            width: { xs: "100%", lg: "10%" },
             display: "flex",
             flexDirection: { xs: "row", lg: "column" },
             justifyContent: { xs: "center" },
             alignItems: "center",
             gap: 2,
+            py: "30px",
           }}
           bgcolor={"primary.main"}
-          py={2}
         >
           <Link href={"/"}>
             <HomeRoundedIcon
