@@ -10,7 +10,7 @@ export default function Home() {
         sx={{
           bgcolor: "secondary.main",
           display: "flex",
-          flexDirection: { xs: "column", lg: "row" },
+          flexDirection: { xs: "column" },
           width: "100%",
           gap: "40px",
         }}

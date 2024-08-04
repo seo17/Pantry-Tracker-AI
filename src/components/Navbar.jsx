@@ -17,10 +17,10 @@ function Navbar() {
       <nav>
         <Box
           sx={{
-            height: { xs: "5vw", lg: "100vh" },
-            width: { xs: "100%", lg: "10%" },
+            height: { xs: "5vw" },
+            width: { xs: "100%" },
             display: "flex",
-            flexDirection: { xs: "row", lg: "column" },
+            flexDirection: { xs: "row" },
             justifyContent: { xs: "center" },
             alignItems: "center",
             gap: 2,
