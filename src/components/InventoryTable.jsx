@@ -47,12 +47,11 @@ export default function InventoryTable() {
   const filteredRows = rows.filter((row) => {
     return (
       row.name.toLowerCase().includes(searchQuery) ||
-      row.company.toLowerCase().includes(searchQuery) ||
-      row.role.toLowerCase().includes(searchQuery) ||
-      row.verified.toLowerCase().includes(searchQuery) ||
-      row.status.toLowerCase().includes(searchQuery)
+      row.category.toLowerCase().includes(searchQuery)
     );
   });
+
+  console.log("Filtered_row", filteredRows);
 
   useEffect(() => {
     async function getResult() {
